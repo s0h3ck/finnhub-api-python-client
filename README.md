@@ -1,7 +1,7 @@
 # Finnhub API Python Client
 
 # Usage
-This library provides convenient way to use [finnhub.io](finnhub.io) API in Python.
+This library provides convenient way to use [finnhub.io](https://finnhub.io/) API in Python.
 
 Finnhub delivers real-time market data: stocks, currencies and crypto.
 
