@@ -1,5 +1,4 @@
 from finnhub import client as Finnhub
-import sys
 
 client = Finnhub.Client(api_key="********************")
 
