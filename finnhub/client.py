@@ -55,6 +55,9 @@ class Client:
     def _get(self, path, **kwargs):
         return self._request_api('get', path, **kwargs)
 
+    def covid(self):
+        return self._get("covid19/us")
+
     def company_profile(self, **params):
         return self._get("stock/profile", data=params)
 
