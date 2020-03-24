@@ -2,6 +2,9 @@ from finnhub import client as Finnhub
 
 client = Finnhub.Client(api_key="********************")
 
+# Get real-time update on the number of COVID-19 (Coronavirus) cases in the US
+client.covid()
+
 # Get general information of a company 
 client.company_profile(symbol="NFLX")
 
